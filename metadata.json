@@ -3,5 +3,7 @@
     "name": "MNIST Validator",
     "description": "Model to compare output of two models trained MNIST dataset",
     "modelCategory": "MODEL_MONITORING_MODEL",
+    "defaultAssociationRole": "PERFORMANCE_MODEL",
+    "frequentlyUsed": false,
     "custom": {}
 }
