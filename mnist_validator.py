@@ -29,6 +29,7 @@ def metrics(dataframe) -> dict:
 
     # Output
     results = {
+        "percent_mismatch": 100 - percent_match,
         "performance": [
             {
                 "test_name": "Output Comparison",
